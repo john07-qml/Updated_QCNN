@@ -29,4 +29,3 @@ def train_qcnn_model(X_train, y_train, X_test, y_test, input_shape, epochs=1):
     model.save("qcnn_model.h5")
     print("Model saved")
     return model, history
-

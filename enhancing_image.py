@@ -9,7 +9,6 @@ def enhance_images(images, model):
         enhanced_images.append(enhanced_img)
     return np.array(enhanced_images)
 
-
 def save_enhanced_images(X_reduced_mmap, svd_transformers, total_images_loaded, gba_model, output_dir):
     chunk_size = 16
     for i in range(len(svd_transformers)):
