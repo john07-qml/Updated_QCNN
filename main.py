@@ -41,4 +41,3 @@ plt.show()
 
 # Step 4: Enhance images
 # enhancing_image.save_enhanced_images()
-

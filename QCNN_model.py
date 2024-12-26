@@ -63,3 +63,4 @@ def create_qcnn_model(input_shape):
     outputs = layers.Dense(4, activation="softmax")(x)
     model = models.Model(inputs=inputs, outputs=outputs)
     return model
+    

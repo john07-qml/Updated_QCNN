@@ -33,3 +33,4 @@ def save_enhanced_images(X_reduced_mmap, svd_transformers, total_images_loaded, 
             except ValueError as e:
                 print(f"Error in chunk {i}_{chunk_index}: {e}. Skipping this chunk.")
                 continue
+
