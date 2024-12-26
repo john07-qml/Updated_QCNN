@@ -10,6 +10,7 @@ import nibabel as nib
 import pennylane as qml
 import tensorflow as tf
 
+
 data_dir = r"../archive/BraTS2020_TrainingData/MICCAI_BraTS2020_TrainingData"
 output_dir = (
     r"./QCNN-RESULT/debugOutput/"

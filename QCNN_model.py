@@ -33,7 +33,6 @@ class QuantumLayer(layers.Layer):
 	    inputs = tf.reshape(inputs, [-1, 16])
 	    inputs = tf.cast(inputs, tf.float32)  # Ensure inputs are float32
 	    print(inputs.dtype)
-	    
 	    # Apply the quantum circuit function to each element in the inputs
 	    quantum_output = tf.map_fn(
 	        lambda x: tf.cast(

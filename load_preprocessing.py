@@ -7,6 +7,7 @@ from sklearn.decomposition import TruncatedSVD
 import pickle
 import tensorflow as tf
 
+
 def load_images(data_dir, batch_size=5):
     images = []
     total_images_loaded = 0
